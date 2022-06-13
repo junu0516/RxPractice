@@ -143,12 +143,10 @@
 		B5A1336B2856D652005274D6 /* RxPractice */ = {
 			isa = PBXGroup;
 			children = (
+				B5E9B6B82857A8DC00BA79A4 /* FirstView */,
+				B5E9B6B92857A8E100BA79A4 /* SecondView */,
+				B5E9B6B72857A8D000BA79A4 /* Supportings */,
 				B5E9B6B02856F9E900BA79A4 /* Components */,
-				B5A1336C2856D652005274D6 /* AppDelegate.swift */,
-				B5A1336E2856D652005274D6 /* SceneDelegate.swift */,
-				B5A133702856D652005274D6 /* FirstViewController.swift */,
-				B5E9B6AE2856E60D00BA79A4 /* SecondViewController.swift */,
-				B5E9B6B52857099C00BA79A4 /* SecondViewModel.swift */,
 				B5A133752856D655005274D6 /* Assets.xcassets */,
 				B5A133772856D655005274D6 /* LaunchScreen.storyboard */,
 				B5A1337A2856D655005274D6 /* Info.plist */,
@@ -179,6 +177,32 @@
 				B5E9B6B12856F9F500BA79A4 /* CustomForm.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		B5E9B6B72857A8D000BA79A4 /* Supportings */ = {
+			isa = PBXGroup;
+			children = (
+				B5A1336C2856D652005274D6 /* AppDelegate.swift */,
+				B5A1336E2856D652005274D6 /* SceneDelegate.swift */,
+			);
+			path = Supportings;
+			sourceTree = "<group>";
+		};
+		B5E9B6B82857A8DC00BA79A4 /* FirstView */ = {
+			isa = PBXGroup;
+			children = (
+				B5A133702856D652005274D6 /* FirstViewController.swift */,
+			);
+			path = FirstView;
+			sourceTree = "<group>";
+		};
+		B5E9B6B92857A8E100BA79A4 /* SecondView */ = {
+			isa = PBXGroup;
+			children = (
+				B5E9B6B52857099C00BA79A4 /* SecondViewModel.swift */,
+				B5E9B6AE2856E60D00BA79A4 /* SecondViewController.swift */,
+			);
+			path = SecondView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
