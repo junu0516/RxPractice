@@ -32,8 +32,8 @@ final class SecondViewController: UIViewController {
         let button = UIButton()
         button.setImage(UIImage(systemName: "arrow.clockwise"), for: .normal)
         button.sizeToFit()
-        button.addAction(UIAction(handler:{ _ in
-            textField.text = self.randomColors.randomElement()
+        button.addAction(UIAction(handler:{ [weak self] _ in
+            textField.text = self?.randomColors.randomElement() ?? "#??????"
         }), for: .touchDown)
         
         textField.rightViewMode = .always
